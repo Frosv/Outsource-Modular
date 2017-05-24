@@ -1,14 +1,19 @@
 /* nav */
 
+body {
+  background-color: #f4f3ef;
+}
+
 .nav-box {
+  background-color: #fff;
+  background-size: cover;
   position: fixed;
   left: 0;
   max-height: none;
   min-height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 260px;
-  background-color: #85c0f8;
-  border-left: 1px solid #ccc;
+  border-right: 1px solid #ddd;
 }
 
 .logo {
@@ -16,10 +21,10 @@
   height: 75px;
   text-align: center;
   margin: 0 auto;
-  border-bottom: 1px solid #fff;
-  font-size: 16px;
+  border-bottom: 1px solid #d1d0ce;
+  font-size: 20px;
   line-height: 75px;
-  color: #fff;
+  color: #7d615b;
 }
 
 .nav {
@@ -28,22 +33,31 @@
 }
 
 .nav li {
-  margin: 5px 0;
+  margin: 10px 0;
   list-style-type: none;
   display: block;
   position: relative;
+  z-index: 1;
 }
 
 .nav .glyphicon {
   margin-right: 10px;
 }
 
-.nav li a{
-  color: #fff;
+.nav li a {
+  color: #94908c;
   display: block;
 }
 
-.nav li a:hover{
+.nav .cur .nav-name {
+  color: #eb5e28;
+}
+
+.nav .cur .glyphicon {
+  color: #eb5e28;
+}
+
+.nav li a:hover {
   background-color: transparent;
 }
 
@@ -56,5 +70,92 @@
   bottom: 0;
 }
 
+.triangle_border_left {
+  width: 0;
+  height: 0;
+  border-width: 20px 20px 20px 0;
+  border-style: solid;
+  border-color: transparent #ddd transparent transparent;
+  /* margin:40px auto; */
+  position: absolute;
+  top: 1px;
+  right: -27px;
+  z-index: 999;
+}
+
+.triangle_border_left span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 18px 18px 18px 0;
+  border-style: solid;
+  border-color: transparent #f4f3ef transparent transparent;
+  position: absolute;
+  top: -18px;
+  left: 2px;
+}
+
 
 /* nav end*/
+
+
+/*container*/
+
+.container-box {
+  margin-left: 260px;
+  height: 100%;
+  padding: 0 10px;
+}
+
+
+
+
+
+
+/* head */
+
+.head{
+  height: 75px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tag{
+  float: left;
+  height: 75px;
+  line-height: 75px;
+  font-size: 18px;
+  margin-left: 10px;
+  color: #777777;
+}
+
+.setting{
+  float: right;
+  font-size: 18px;
+  line-height: 75px;
+}
+
+.setting button{
+  cursor: pointer;
+}
+
+.setting .badge{
+  margin-left: 10px;
+}
+
+/* head end*/
+
+
+.white-box{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 3px 3px #bebebe;
+  margin-bottom: 30px;
+}
+
+.container{
+  width: 100%;
+  padding: 30px;
+}
+
+/*container end */
