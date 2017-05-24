@@ -76,7 +76,6 @@ body {
   border-width: 20px 20px 20px 0;
   border-style: solid;
   border-color: transparent #ddd transparent transparent;
-  /* margin:40px auto; */
   position: absolute;
   top: 1px;
   right: -27px;
@@ -105,21 +104,18 @@ body {
   margin-left: 260px;
   height: 100%;
   padding: 0 10px;
+  overflow: auto;
 }
-
-
-
-
 
 
 /* head */
 
-.head{
+.head {
   height: 75px;
   border-bottom: 1px solid #ddd;
 }
 
-.tag{
+.tag {
   float: left;
   height: 75px;
   line-height: 75px;
@@ -128,24 +124,33 @@ body {
   color: #777777;
 }
 
-.setting{
+.setting {
   float: right;
   font-size: 18px;
   line-height: 75px;
 }
 
-.setting button{
+.setting .glyphicon{
+  top: 3px;
+  margin-right: 5px;
+}
+
+.setting a {
   cursor: pointer;
+  margin:0 15px;
+  color: #777;
+  text-decoration: none;
 }
 
 .setting .badge{
-  margin-left: 10px;
+  margin-top: -3px;
+  margin-left: 5px;
 }
+
 
 /* head end*/
 
-
-.white-box{
+.white-box {
   padding: 20px;
   border-radius: 10px;
   background-color: #fff;
@@ -153,9 +158,36 @@ body {
   margin-bottom: 30px;
 }
 
-.container{
+.container {
   width: 100%;
   padding: 30px;
 }
+
+caption p {
+  font-size: 14px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+caption{
+  font-size: 18px;
+}
+
+.dow-list{
+  margin: 0;
+  padding: 0;
+}
+
+.dow-list li{
+  list-style: none;
+  float: left;
+  width: 23%;
+  margin-right: 24px;
+}
+
+.clearmr{
+  margin-right: 0 !important;
+}
+
 
 /*container end */
