@@ -183,11 +183,11 @@ caption{
   float: left;
   width: 23%;
   margin-right: 24px;
-  border: 1px solid transition;
+  border: 1px solid transparent;
 }
 
 .dow-list .white-box:hover{
-  border: 1px solid red;
+  border: 1px solid #2e6da4;
 }
 
 .clearmr{
