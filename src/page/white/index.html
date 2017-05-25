@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../../assets/css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- nav -->
+  <div class="nav-box" id="navBox">
+    <div class="logo">
+      灰白模板页
+    </div>
+    <ul class="nav">
+      <li class="cur">
+        <a href="javascript:;">
+          <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+          <span class="nav-name">流程</span>
+          <div class="triangle_border_left">
+            <span></span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          <span class="nav-name">搜索</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          <span class="nav-name">收藏</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <span class="glyphicon glyphicon-download" aria-hidden="true"></span>
+          <span class="nav-name">下载</span>
+        </a>
+      </li>
+      <li class="nav-hidden" id="navHidden">
+        <a href="javascript:;">
+          <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+          <span class="nav-name">收起</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- nav end-->
+  <!--content -->
+  <div class="container-box">
+    <!-- head -->
+    <div class="head">
+      <div class="tag">流程</div>
+      <div class="setting">
+        <a href="javascript:;">
+          <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>消息<span class="badge">4</span>
+          </button>
+        </a>
+        <a href="javascript:;">
+          <button type="button" class="btn btn-warning">
+            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>设置
+          </button>
+        </a>
+        <a href="javascript:;">
+          <button type="button" class="btn btn-info">
+            <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>登出
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- head end-->
+    <div class="container">
+      <div class="white-box">
+        <input type="text" class="form-control" placeholder="Text input">
+      </div>
+      <div class="white-box">
+        <table class="table table-striped table-hover">
+          <caption>Optional table caption.</caption>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="white-box">
+        <table class="table table-bordered table-hover">
+          <caption>
+            Optional table caption.
+            <p>123</p>
+          </caption>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="success">
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr class="info">
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr class="danger">
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr class="warning">
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="white-box">
+        <div class="row">
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img data-src="holder.js/100%x180" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTVjM2Y3N2EyN2EgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWMzZjc3YTI3YSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+                data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img data-src="holder.js/100%x180" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTVjM2Y3N2EyN2EgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWMzZjc3YTI3YSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+                data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img data-src="holder.js/100%x180" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTVjM2Y3N2EyN2EgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWMzZjc3YTI3YSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+                data-holder-rendered="true">
+            </a>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+              <img data-src="holder.js/100%x180" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMxOSAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTVjM2Y3N2EyN2EgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxNnB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNWMzZjc3YTI3YSI+PHJlY3Qgd2lkdGg9IjMxOSIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMTcuOTg0Mzc1IiB5PSI5Ny4yIj4zMTl4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+                data-holder-rendered="true">
+            </a>
+          </div>
+        </div>
+      </div>
+      <ul class="dow-list clearfix">
+        <li class="white-box">
+          <p class="text-primary">文件名</p>
+          <p class="text-success">文件介绍</p>
+          <p class="text-danger">上传时间: 2017-5-27</p>
+          <button type="button" class="btn btn-success">下载</button>
+        </li>
+        <li class="white-box">
+          <p class="text-primary">文件名</p>
+          <p class="text-success">文件介绍</p>
+          <p class="text-danger">上传时间: 2017-5-27</p>
+          <button type="button" class="btn btn-success">下载</button>
+        </li>
+        <li class="white-box">
+          <p class="text-primary">文件名</p>
+          <p class="text-success">文件介绍</p>
+          <p class="text-danger">上传时间: 2017-5-27</p>
+          <button type="button" class="btn btn-success">下载</button>
+        </li>
+        <li class="white-box clearmr">
+          <p class="text-success text-type">文件名</p>
+          <p class="text-primary text-name">文件介绍</p>
+          <div class="line"></div>
+          <p class="text-danger">上传时间: 2017-5-27</p>
+        </li>
+      </ul>
+      <div class="white-box">
+        <p class="text-primary">文件名</p>
+        <p class="text-success">文件介绍</p>
+        <p class="text-danger">上传时间: 2017-5-27</p>
+        <button type="button" class="btn btn-success">下载</button>
+      </div>
+      <div class="white-box">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+            style="width: 45%">
+            <span class="sr-only">45% Complete</span>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+            aria-valuemax="100" style="width: 60%">
+            <span class="sr-only">60% Complete</span>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+            aria-valuemax="100" style="width: 80%">
+            <span class="sr-only">80% Complete (warning)</span>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100" style="width: 100%">
+            <span class="sr-only">100% Complete (danger)</span>
+          </div>
+        </div>
+      </div>
+      <div class="white-box">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel title</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--content end -->
+  <script src="../../assets/js/jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

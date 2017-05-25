@@ -11,7 +11,6 @@ body {
   left: 0;
   max-height: none;
   min-height: 100%;
-  /* overflow: hidden; */
   width: 260px;
   border-right: 1px solid #ddd;
 }
@@ -131,19 +130,18 @@ body {
 }
 
 .setting .glyphicon{
-  top: 3px;
+  top: 2px;
   margin-right: 5px;
 }
 
 .setting a {
   cursor: pointer;
-  margin:0 15px;
+  margin:0 5px;
   color: #777;
   text-decoration: none;
 }
 
 .setting .badge{
-  margin-top: -3px;
   margin-left: 5px;
 }
 
@@ -192,6 +190,21 @@ caption{
 
 .clearmr{
   margin-right: 0 !important;
+}
+
+.line{
+  height: 1px;
+  background-color: #bebebe;
+  width: 100%;
+  margin: 0 auto 10px;
+}
+
+.text-type{
+  font-size: 14px;
+}
+.text-name{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
